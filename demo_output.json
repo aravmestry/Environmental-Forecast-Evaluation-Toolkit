@@ -1,0 +1,46 @@
+{
+  "clusters": 5,
+  "rows": 110,
+  "bootstrap_replicates": 100,
+  "metrics": {
+    "auc": {
+      "delta": 0.14587189929655664,
+      "ci95": [
+        0.02847180451127817,
+        0.33628822741948183
+      ],
+      "valid_replicates": 100
+    },
+    "average_precision": {
+      "delta": 0.21152220223118312,
+      "ci95": [
+        0.12820600035785634,
+        0.3770160343380081
+      ],
+      "valid_replicates": 100
+    },
+    "brier_score": {
+      "delta": -0.05674051136363639,
+      "ci95": [
+        -0.07146624609090911,
+        -0.03970397818181824
+      ],
+      "valid_replicates": 100
+    }
+  },
+  "baseline": {
+    "n": 110,
+    "event_rate": 0.33636363636363636,
+    "auc": 0.6058867086264348,
+    "average_precision": 0.4485667485667486,
+    "brier_score": 0.23563246418181824
+  },
+  "candidate": {
+    "n": 110,
+    "event_rate": 0.33636363636363636,
+    "auc": 0.7517586079229914,
+    "average_precision": 0.6600889507979317,
+    "brier_score": 0.17889195281818185
+  },
+  "interpretation": "Positive delta AUC/AP or negative delta Brier favors candidate; exploratory uncertainty only."
+}

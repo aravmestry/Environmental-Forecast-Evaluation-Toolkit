@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the archived release."
+title: "Environmental Forecast Evaluation Toolkit"
+type: software
+version: "0.1.0"
+authors:
+  - family-names: Mestry
+    given-names: Arav
+abstract: "A prototype toolkit for comparing probabilistic environmental-event forecasts using established metrics and cluster bootstrap intervals."
